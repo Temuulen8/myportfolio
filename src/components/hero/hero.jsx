@@ -6,7 +6,7 @@ import { FaFigma } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="flex space-between justify-between px-28 py-32 bg-white text-black">
+    <section className="flex space-between justify-between px-28 py-32">
       <div className=" flex flex-col gap-y-8">
         <h1 className="font-bold text-6xl">Hi, I'm Kobe </h1>
         <p className="w-[600px]">
