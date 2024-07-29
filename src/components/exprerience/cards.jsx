@@ -1,7 +1,7 @@
 const Cards = ({ title, companyLogo, jobRoles }) => {
   return (
-    <div className="m-auto w-[896px] h-[288px] bg-white drop-shadow-2xl rounded-lg mb-12 ">
-      <div className="p-8 flex justify-between">
+    <div className="m-auto w-[896px] h-[288px] bg-white dark:[#1F2937] drop-shadow-2xl rounded-lg mb-12 ">
+      <div className="p-8 flex justify-between ">
         <div>
           <img src={companyLogo} alt="" />
         </div>
@@ -13,7 +13,7 @@ const Cards = ({ title, companyLogo, jobRoles }) => {
             ))}
           </ul>
         </div>
-        <div>{new Date().toLocaleDateString()}</div>
+        <div>{"2024-7-30"}</div>
       </div>
     </div>
   );

@@ -13,8 +13,8 @@ const About = () => {
         className="flex mt-12"
       />
 
-      <section className=" bg-slate-50 px-96 py-32 dark:bg dark:text-gray-900">
-        <div className=" flex justify-center">
+      <section className=" bg-slate-50 px-96 py-32 dark:bg dark:text-gray-900 dark:bg-[#111827]">
+        <div className=" flex justify-center pb-8">
           <Tag text="About me" />
         </div>
         <div className="flex justify-between items-center">

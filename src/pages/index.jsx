@@ -52,7 +52,7 @@ export default function Home() {
       <About />
       <Skills />
       <Experience />
-      <div className="bg-gray-50 pb-12">
+      <div className="bg-gray-50 pb-12 dark:bg-[#111827]">
         {experiences.map((experience) => (
           <Cards
             title={experience.text}
