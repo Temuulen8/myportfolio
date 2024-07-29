@@ -5,6 +5,8 @@ import Skills from "@/components/skills/skills";
 import Cards from "@/components/exprerience/cards";
 import Experience from "@/components/exprerience/experience";
 import Work from "@/components/work/work";
+import Footer from "@/components/footer/footer";
+import Contact from "@/components/footer/contact";
 
 const experiences = [
   {
@@ -60,6 +62,8 @@ export default function Home() {
         ))}
       </div>
       <Work />
+      <Contact />
+      <Footer />
     </main>
   );
 }
