@@ -6,7 +6,7 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
   console.log("theme", theme);
   return (
-    <div className="flex gap-x-6 items-center">
+    <div className="flex gap-x-6 items-center max-sm:hidden ">
       <ul className="flex gap-x-6">
         <li>About</li>
         <li>Work</li>

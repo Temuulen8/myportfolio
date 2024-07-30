@@ -3,8 +3,8 @@ import Tag from "../tag";
 
 const Workcard = () => {
   return (
-    <div className="w-[1152px] h-[480px] flex drop-shadow-2xl justify-center content-center bg-white rounded-xl mb-12">
-      <div className="flex flex-1 bg-gray-50">
+    <div className="w-[1152px] h-[480px] sm:flex sm:flex-row max-sm:h-[850px] drop-shadow-2xl justify-center content-center bg-white rounded-xl mb-12 dark:bg-[#1F2937] max-sm:w-[343px]">
+      <div className="flex flex-1 bg-gray-50 dark:bg-[#374151]">
         <img className="  p-12" src="./image/Kobe.webp" alt="" />
       </div>
       <div className="flex flex-1 flex-col p-12 gap-y-6">

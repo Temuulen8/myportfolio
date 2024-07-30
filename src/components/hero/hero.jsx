@@ -6,10 +6,12 @@ import { FaFigma } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="flex space-between justify-between px-96 py-32">
+    <section className="flex flex-col-reverse  sm:flex sm:flex-row space-between justify-between px-96 py-32 max-sm:p-4 ">
       <div className=" flex flex-col gap-y-8">
-        <h1 className="font-bold text-6xl">Hi, I'm Kobe </h1>
-        <p className="w-[600px]">
+        <h1 className="font-bold text-6xl max-sm:font-semibold max-sm:4xl">
+          Hi, I'm Kobe{" "}
+        </h1>
+        <p className="w-[600px] max-sm:w-[343px]">
           I specialize in full stack development, particularly with React.js and
           Node.js. My main goal is to create exceptional digital experiences
           that are fast, visually appealing, and accessible to everyone. With
